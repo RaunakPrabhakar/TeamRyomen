@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pshycology Form</title>
+    <style>
+        body {
+            background-color: rgb(206, 222, 197);
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            outline: 1px solid #1d0101;
+            outline-width: 2px;
+        }
+        .table-container {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: beige;
+        }
+        th, td {
+            padding: 2px;
+            border: 1px solid #000;
+            text-align: left;
+        }
+        th {
+            background-color: #a8a8d9;
+        }
+        .questions {
+            margin-top: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .options input {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <img src="https://img.freepik.com/premium-vector/cartoon-brain-illustration-vector-clip-art-icon-design_1058532-22258.jpg?semt=ais_hybrid" alt="NIT Meghalaya" width="100" style="float: left;">
+    <h1 style="text-align: center;">Stress Test</h1>
+    </div>
+
+    <h3 style="text-align: center;">Mental Stress Form</h3>
+
+    </div>
+    <br>
+    <label for="fname"><b>First name:</b> </label>
+        <input type="text" id="fname" name="fname" placeholder="Raunak">(Max 50 Characters Allowed)<br><br>
+
+        <label for="lname"><b>Last name:</b> </label>
+        <input type="text" id="lname" name="lname" placeholder="Prabhakar">(Max 50 Characters Allowed)<br><br>
+
+        <label for="email"><b>Email ID.</b> </label>
+        <input type="text" id="email" name="email" placeholder="abc123@gmail.com"><br><br>
+
+        <label for="mnumber"><b>Mobile Number:</b></label>
+        <input type="text" id="mnumber" placeholder="987XXXXXXX">(Max 10 digits Allowed)<br><br>
+
+        <label for="Gender"><b>Gender</b></label>
+        <input type="radio" id="Male" name="gender" value="Male">Male
+        <input type="radio" id="Female" name="gender" value="Female">Female<br><br>
+
+    <div class="questions">
+        
+        <div class="question">
+            <p><strong>1. How do you rate your current mental state</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q1"> A. Worst</label><br>
+                <label><input type="radio" name="q1"> B. Bad</label><br>
+                <label><input type="radio" name="q1"> C. Good</label><br>
+                <label><input type="radio" name="q1"> D. Excellent</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p><strong>2.How would you describe your Eating habits?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q2"> A. Vegetarian (vegetables only)</label><br>
+                <label><input type="radio" name="q2"> B. Pescatarian(eat fish)</label><br>
+                <label><input type="radio" name="q2"> C. Eat white meat </label><br>
+                <label><input type="radio" name="q2"> D. Eat Red Meat</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p><strong>3. Do you eat processed foods 3 times or more in a week?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q3"> A. Yes</label><br>
+                <label><input type="radio" name="q3"> B. No</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>4. Do you drink an adequate quantity of water each day ( more than 6 glasses)?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q4"> A. Yes </label><br>
+                <label><input type="radio" name="q4"> B. No</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>5. How often do you eat vegetables? (The CDC reports Only 10 % of Americans Eat Enough Fruits and Vegetables.)</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q5"> A. More than 5 times a week</label><br>
+                <label><input type="radio" name="q5"> B. 4 to 5 times a week</label><br>
+                <label><input type="radio" name="q5"> C. 3 times a week</label><br>
+                <label><input type="radio" name="q5"> D. Less than 2 times a week</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>6. How often do you eat Fruit?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q5"> A. More than 5 times a week</label><br>
+                <label><input type="radio" name="q5"> B. 4 to 5 times a week</label><br>
+                <label><input type="radio" name="q5"> C. 3 times a week</label><br>
+                <label><input type="radio" name="q5"> D. Less than 2 times a week</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>7. Are you suffering from any serious disease or ailment?
+            </strong></p>
+            <div class="options">
+                <label><input type="radio" name="q4"> A. Yes </label><br>
+                <label><input type="radio" name="q4"> B. No</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>8.What are your current health concerns?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q8"> A. Currently I have no health concerns</label><br>
+                <label><input type="radio" name="q8"> B. I am heavier than I would like to be with no aliments</label><br>
+                <label><input type="radio" name="q8"> C. Very stressed and not sleeping well</label><br>
+                <label><input type="radio" name="q8"> D.Concerned about my heart and brain health  as is age</label><br>
+                <label><input type="radio" name="q8"> E. Would like my skim to be healthier</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+        <p><strong>9. How do you feel about your current weight?</strong></p>
+        <div class="options">
+            <label><input type="radio" name="q9"> A.Under my optimal weight </label><br>
+            <label><input type="radio" name="q9"> B. Around my optimal weight</label><br>
+            <label><input type="radio" name="q9"> C. Over my optimal weight</label><br>
+        </div>
+    </div>
+
+    <div class="question"></div>
+            <p><strong>10. Exercise: How often do you exercise?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q10"> A. More than 5 times a week </label><br>
+                <label><input type="radio" name="q10"> B.  4 or 5 times a week</label><br>
+                <label><input type="radio" name="q10"> C. 3 times a week</label><br>
+                <label><input type="radio" name="q10"> D. Less than 2 times a week
+                </label><br>
+            </div>
+        </div>
+        <hr>
+        <br>
+    </div>
+</body>
+</html>

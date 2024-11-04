@@ -1,0 +1,94 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        *{
+            background-color: #ecc89d;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            align-self: center;
+        }
+        h1{
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-container img, {
+            width: 30%;
+        }
+        .grid-container .text {
+            width: 100%;
+        }
+        .grid-container img {
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>INNER HARMONY</h1>
+    <div class="grid-container">
+        <div class="logo">
+            <img src="logo.jpg" class="logo"> 
+        </div>
+        <div class="text">
+            <p>It's completely normal to feel hesitant about seeing a psychiatrist after taking a depression test, but I want to encourage you to consider
+                it as a positive step forward. Many people find that talking to a professional can provide invaluable support and help them understand their
+                 feelings better. Remember, seeking help is a sign of strength, not weakness. If you have concerns or questions about the process, I’m here 
+                 to listen and support you. Together, we can explore how getting the right help can lead to a brighter, more hopeful future. You don’t have 
+                 to face this alone</p>
+        </div>
+    </div>
+
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="comment">Comment:</label>
+    <textarea id="comment" name="comment" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+<h2>Contact Us</h2>
+<script src="script.js"></script>
+
+
+</body>
+</html>
