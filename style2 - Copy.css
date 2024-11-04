@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    line-height: 1.7;
+    color: #456;
+    background-color: #f8fafb;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #88c8ff, #6a9dff);
+    padding: 1.2em 2em;
+    color: #fff;
+    box-shadow: 0 2px 15px rgba(106, 157, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+nav h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 0.9;
+}
+
+nav a:hover {
+    opacity: 1;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.hero {
+    background: linear-gradient(135deg, #88c8ff, #6a9dff, #8e94ff);
+    color: #fff;
+    padding: 6em 2em;
+    text-align: center;
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1);
+}
+
+.hero h2 {
+    font-size: 2.8em;
+    margin-bottom: 0.7em;
+    font-weight: 300;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero button {
+    padding: 1em 2em;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 25px;
+    color: #6a9dff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.hero button:hover {
+    background: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-section {
+    padding: 4em 2em;
+    text-align: center;
+    background: linear-gradient(to bottom, #fff, #f8fafb);
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2em;
+    padding: 4em 2em;
+    background-color: #fff;
+}
+
+.benefit-card {
+    background: linear-gradient(145deg, #fff, #f8fafb);
+    padding: 2em;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.content-section .navbar a {
+    font-size: 1.7rem;
+    display: flexbox;
+    color: #6a9dff;
+    margin-left: 2rem;
+    transition: color 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(106, 157, 255, 0.1);
+}
+
+.contact-section {
+    padding: 4em 2em;
+    background: linear-gradient(to bottom, #fff, #f8fafb);
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 1.2em;
+    margin: 0.7em 0;
+    border-radius: 10px;
+    border: 1px solid rgba(106, 157, 255, 0.2);
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #6a9dff;
+    box-shadow: 0 0 0 3px rgba(106, 157, 255, 0.1);
+}
+
+form button {
+    padding: 1.2em 2.5em;
+    background: linear-gradient(135deg, #88c8ff, #6a9dff);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(106, 157, 255, 0.3);
+}
+
+form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(106, 157, 255, 0.4);
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background: linear-gradient(135deg, #456, #567);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+    text-decoration: none;
+    align-content: center;
+    justify-content: center;
+    color: #456;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(135deg, #e8f4ff, #f0f7ff);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(106, 157, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 2em;
+}

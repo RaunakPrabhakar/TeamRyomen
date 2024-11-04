@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pshycology Form</title>
+    <style>
+        body {
+            background-image: url("https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg");
+            /* background-color: rgb(206, 222, 197); */
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            outline: 1px solid #1d0101;
+            outline-width: 2px;
+        }
+        .table-container {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: beige;
+        }
+        th, td {
+            padding: 2px;
+            border: 1px solid #000;
+            text-align: left;
+        }
+        th {
+            background-color: #a8a8d9;
+        }
+        .questions {
+            margin-top: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .options input {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <img src="https://img.freepik.com/premium-vector/cartoon-brain-illustration-vector-clip-art-icon-design_1058532-22258.jpg?semt=ais_hybrid" alt="NIT Meghalaya" width="100" style="float: left;">
+    <h1 style="text-align: center;">Stress Test</h1>
+    </div>
+
+    <h3 style="text-align: center;">Mental Stress Form</h3>
+
+    </div>
+    <br>
+    <label for="fname"><b>First name:</b> </label>
+        <input type="text" id="fname" name="fname" placeholder="Raunak">(Max 50 Characters Allowed)<br><br>
+
+        <label for="lname"><b>Last name:</b> </label>
+        <input type="text" id="lname" name="lname" placeholder="Prabhakar">(Max 50 Characters Allowed)<br><br>
+
+        <label for="email"><b>Email ID.</b> </label>
+        <input type="text" id="email" name="email" placeholder="abc123@gmail.com"><br><br>
+
+        <label for="mnumber"><b>Mobile Number:</b></label>
+        <input type="text" id="mnumber" placeholder="987XXXXXXX">(Max 10 digits Allowed)<br><br>
+
+        <label for="Gender"><b>Gender</b></label>
+        <input type="radio" id="Male" name="gender" value="Male">Male
+        <input type="radio" id="Female" name="gender" value="Female">Female<br><br>
+
+    <div class="questions">
+        
+        <div class="question">
+            <p><strong>1. How often did you feel tired out for no reason?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q1"> A. None of the time</label><br>
+                <label><input type="radio" name="q1"> B. A little of the time</label><br>
+                <label><input type="radio" name="q1"> C. Some of the time</label><br>
+                <label><input type="radio" name="q1"> D. Most of the time</label><br>
+                <label><input type="radio" name="q1">E. All the time</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p><strong>2.How often did you feel nervous?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q2"> A. None of the time</label><br>
+                <label><input type="radio" name="q2"> B. A little of the time</label><br>
+                <label><input type="radio" name="q2"> C. Some of the time </label><br>
+                <label><input type="radio" name="q2"> D. Most of the time</label><br>
+                <label><input type="radio" name="q2">E. All the time</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p><strong>3. How often did you feel so nervous that nothing could calm you down?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q3"> A. None of the time</label><br>
+                <label><input type="radio" name="q3"> B. A little of the time</label><br>
+                <label><input type="radio" name="q3"> C. Some of the time </label><br>
+                <label><input type="radio" name="q3"> D. Most of the time</label><br>
+                <label><input type="radio" name="q3">E. All the time</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>4. How often did you feel restless or fidgety?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q4"> A. None of the time</label><br>
+                <label><input type="radio" name="q4"> B. A little of the time</label><br>
+                <label><input type="radio" name="q4"> C. Some of the time </label><br>
+                <label><input type="radio" name="q4"> D. Most of the time</label><br>
+                <label><input type="radio" name="q4">E. All the time</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>5. How often did you feel hopeless?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q5"> A. None of the time</label><br>
+                <label><input type="radio" name="q5"> B. A little of the time</label><br>
+                <label><input type="radio" name="q5"> C. Some of the time </label><br>
+                <label><input type="radio" name="q5"> D. Most of the time</label><br>
+                <label><input type="radio" name="q5">E. All the time</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>6. What is the condition of your appetite?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q6"> A. There is no change in my appetite</label><br>
+                <label><input type="radio" name="q6"> B. It's different but normal</label><br>
+                <label><input type="radio" name="q6"> C. Not Sure</label><br>
+                <label><input type="radio" name="q6"> D. I've lost my appetite</label><br>
+                <label><input type="radio" name="q6"> E. I'm eating too much</label>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>7. Do you think about ending your life?
+            </strong></p>
+            <div class="options">
+                <label><input type="radio" name="q7"> A. None of the time</label><br>
+                <label><input type="radio" name="q7"> B. A little of the time</label><br>
+                <label><input type="radio" name="q7"> C. Some of the time </label><br>
+                <label><input type="radio" name="q7"> D. Most of the time</label><br>
+                <label><input type="radio" name="q7">E. All the time</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+            <p><strong>8.What are your current health concerns?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q8"> A. Currently I have no health concerns</label><br>
+                <label><input type="radio" name="q8"> B. I am heavier than I would like to be with no aliments</label><br>
+                <label><input type="radio" name="q8"> C. I do not know much about it</label><br>
+                <label><input type="radio" name="q8"> D.Concerned about my heart and brain health  as is age</label><br>
+                <label><input type="radio" name="q8"> E. Very stressed and not sleeping well</label><br>
+            </div>
+        </div>
+
+        <div class="question"></div>
+        <p><strong>9. How do you feel about your relationship with loved ones?</strong></p>
+        <div class="options">
+            <label><input type="radio" name="q9"> A.I'm blessed to have them </label><br>
+            <label><input type="radio" name="q9"> B.Everything is normal </label><br>
+            <label><input type="radio" name="q9"> C.I do not know anymore</label><br>
+            <label><input type="radio" name="q9"> D.Its stressful sometimes,but I make it work</label><br>
+            <label><input type="radio" name="q9"> E.I cannot deal with my relationship issues anymore</label><br>
+        </div>
+    </div>
+
+    <div class="question"></div>
+            <p><strong>10. Exercise: How often do you exercise?</strong></p>
+            <div class="options">
+                <label><input type="radio" name="q10"> A. More than 5 times a week </label><br>
+                <label><input type="radio" name="q10"> B.  4 or 5 times a week</label><br>
+                <label><input type="radio" name="q10"> C. 3 times a week</label><br>
+                <label><input type="radio" name="q10"> D. Less than 2 times a week
+                </label><br>
+                <label><input type="radio" name="q10"> E.I do not exercise</label><br>
+            </div>
+        </div>
+        <hr>
+        <br>
+    </div>
+    <div >
+        <input type="submit" value="Submit"> 
+      </div>
+      <br>
+      <a href="chatbot1.html">Continue</a>
+    <script src="que.js"></script>
+</body>
+</html>
